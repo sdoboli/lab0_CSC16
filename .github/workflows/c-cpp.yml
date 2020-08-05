@@ -21,11 +21,7 @@ jobs:
       run: ls -al
     - name: pwd
       run: pwd
-    - name: cd1
-      run: cd ../
     - name: ls2
-      run: ls -al
-    - name: cd2
-      run: cd lab1-sdoboli 
+      run: ls ../ -al
     - name: clean
       run: make clean
