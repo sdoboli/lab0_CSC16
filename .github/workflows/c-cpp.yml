@@ -18,8 +18,14 @@ jobs:
     - name: run
       run: ./hello
     - name: ls
-      run: ls -l
+      run: ls -al
     - name: pwd
       run: pwd
+    - name: cd1
+      run: cd ..
+    - name: ls2
+      run: ls -al
+    - name: cd2
+      run: cd lab1-sdoboli 
     - name: clean
       run: make clean
