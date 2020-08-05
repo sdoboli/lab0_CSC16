@@ -22,7 +22,7 @@ jobs:
     - name: pwd
       run: pwd
     - name: cd1
-      run: cd ..
+      run: cd ../
     - name: ls2
       run: ls -al
     - name: cd2
