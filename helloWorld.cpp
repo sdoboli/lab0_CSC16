@@ -3,5 +3,5 @@ using namespace std; // use libraries from namespace std
 
 int main()
 {
-	cout << "Hello World" << endl; 
+	cout << "Hello class" << endl; 
 }
