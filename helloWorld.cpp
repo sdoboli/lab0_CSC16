@@ -1,7 +1,7 @@
-#include <iostream> // io library: cin, cout, <<, >>
+#include <iostream> // input output library: cin, cout, <<, >>
 using namespace std; // use libraries from namespace std
 
 int main()
 {
-	cout << "Hello class" << endl; 
+	cout << "Hello CSC16 Fall 2020 class ! " << endl; 
 }
