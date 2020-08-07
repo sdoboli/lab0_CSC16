@@ -17,11 +17,5 @@ jobs:
       run: make
     - name: run
       run: ./hello
-    - name: ls
-      run: ls -al
-    - name: pwd
-      run: pwd
-    - name: ls2
-      run: ls ../ -al
     - name: clean
       run: make clean
