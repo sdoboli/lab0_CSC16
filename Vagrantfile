@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-# ### CS131 Development VM ###
+# ### Development VM ###
 # Feel free to modify this file to best work with your machine.
 # 
 # For documentation, please see the comments here or go to
