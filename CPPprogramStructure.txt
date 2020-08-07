@@ -5,7 +5,7 @@
 
 A program is a collection of functions. 
 
-/* ########################33######################################
+/* ##############################################################
 // Program header: firstProgram.cpp
 // describe what the program does, its inputs and outputs
 // Author: 
@@ -22,7 +22,7 @@ A program is a collection of functions.
 #include <string>
 		       // string library contains functions forstring 
 		       // manipulations
-using namespace std;   // use libraries from namespace std (standard)
+using namespace std;   // use libraries from namespace std (standard library)
 
 // definition of function main() - one and only one main function in 
 // any C++ program. Contains the instruction that the program will 
@@ -81,6 +81,10 @@ Two forms:
 //########################
 // Comments 
 //########################
+
+// single line comment
+/* multiline comment 
+			*/
 
 	// comments the rest of the line it appears on
 	/* 
