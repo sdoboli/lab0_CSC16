@@ -68,7 +68,9 @@ A) Edit the helloWorld.cpp file. Open the file using an editor.
 	
 	Suggested editor: 
 		Visual studio code: https://code.visualstudio.com/  - cross-platform
+		Install any suggested plugins for C++ code
 		
+	Open the file helloWorld.cpp in Visual studio code
 	Change the file helloWorld.cpp - change the text in between double quotes " "
 	Save helloWorld.cpp
 
