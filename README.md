@@ -44,11 +44,11 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 	b) In your browser accept the assignment:  <add link to the assignment>
 	
 	c)  Then login into your github account and you should see a new repository with 
-	the assignment name
+	the assignment name. Click on the green button Code and then copy the link from the Clone with HTTPS option
 	
 	d) Clone the lab repository on your virtual machine (a new folder will be created with the name of the assignment. All files from the repository will be copied there): 
 		
-		Type: git clone  https://github.com/HofstraDoboli/lab1-sdoboli.git
+		Type: git clone add_https_link_from_above  
 	
 	e) Check that you have the new assignment folder in /vagrant: 
 		
