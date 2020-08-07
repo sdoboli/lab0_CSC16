@@ -9,18 +9,20 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 3. Download Vagrant: https://www.vagrantup.com/downloads.html 
 4. Install Vagrant:  https://www.vagrantup.com/docs/installation
 5. Create a directory called CSC16 on your computer
-6. Copy the content of Vagrantfile inside the new directory. Make sure the name of the file stays Vagrantfile. 
+6. Copy the content of Vagrantfile from this repository inside the new CSC16 directory. Make sure the name of the file stays Vagrantfile. 
 7. Open a terminal window on your machine, go to your new CSC16 folder (use cd command)  and start your virtual machine (vm) in that folder by typing the following commands:
 		vagrant up
 		vagrant ssh 
 
-   To stop the VM type at the VM prompt: exit
-   Then type: vagrant halt
-	You can leave it on as long as you want. 
+   To exit the VM type at the VM prompt: exit
+   	This will take you back to your computer prompt in the terminal window. The VM is still up. You can ssh later in it. 
+   To stop the machine type: vagrant halt  
+   	You will have to type vagrant up and vagrant ssh again.
 
 8. Install the following packages:
 
 	sudo apt install build-esential
+	
 	sudo apt install gdb
 
 9. Type cd /vagrant. This folder is mapped onto your local CSC16 directory. Type ls -al to see its content. It will be the same content as CSC16 on your machine. Always type cd /vagrant when you start up your VM.
@@ -28,7 +30,9 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 10. Create an account on github: https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account  
 	- Check this website for a short intro to git: https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/ 
 12. Inside VM type: 
+	
 	git config --global user.name "your name from github profile"
+	
 	git config --global user.email "your email from github profile"   
 
 12. Clone the github classroom repository locally in /vagrant folder:
