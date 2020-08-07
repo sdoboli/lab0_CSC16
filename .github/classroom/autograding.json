@@ -2,13 +2,13 @@
   "tests": [
     {
       "name": "Test1",
-      "setup": "",
+      "setup": "make",
       "run": "./hello",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 10
     }
   ]
 }
