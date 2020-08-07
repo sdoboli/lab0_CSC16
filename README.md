@@ -36,18 +36,30 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 	git config --global user.email "your email from github profile"   
 
 12. Clone the github classroom repository locally in /vagrant folder:
+	
 	a) Check that you are inside /vagrant folder: 
+		
 		Type: pwd
+	
 	b) In your browser accept the assignment:  <add link to the assignment>
+	
 	c)  Then login into your github account and you should see a new repository with 
 	the assignment name
+	
 	d) Clone the lab repository on your virtual machine (a new folder will be created with the name of the assignment. All files from the repository will be copied there): 
+		
 		Type: git clone  https://github.com/HofstraDoboli/lab1-sdoboli.git
+	
 	e) Check that you have the new assignment folder in /vagrant: 
+		
 		Type: ls -al
+	
 	f) Change directory to the new assignment folder: 
+		
 		Type: cd assignment_folder_name
+	
 	g) Check the files in the assignment foder: 
+		
 		Type: ls     
 
   Congratulations! You are now ready to start your assignment.
