@@ -13,14 +13,14 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 7. Open a terminal window on your machine, go to your new CSC16 folder (use cd command)  and start your virtual machine (vm) in that folder by typing the following commands:
 		```
 		vagrant up
+		
 		vagrant ssh 
 		```
 
-   To exit the VM type at the VM prompt: `exit`
-   	This will take you back to your computer prompt in the terminal window. The VM is still up. You can ssh later in it. 
-   To stop the machine type: `vagrant halt`  
-   	
-	You will have to type vagrant up and vagrant ssh again.
+   * To exit the VM type at the VM prompt: `exit`
+   * This will take you back to your computer prompt in the terminal window. The VM is still up. You can ssh later in it. 
+   * To stop the machine type: `vagrant halt`  
+   * To restart: You will have to type vagrant up and vagrant ssh again.
 
 8. Install the following packages:
 
