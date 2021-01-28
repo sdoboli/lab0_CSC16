@@ -40,19 +40,19 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 	```
 12. Clone the github classroom repository locally in `/vagrant` folder:
 	
-	a) Check that you are inside /vagrant folder. Type: `pwd`
-	b) In your browser accept the assignment:  <add link to the assignment>
-	c)  Then login into your github account and you should see a new repository with 
+	* Check that you are inside /vagrant folder. Type: `pwd`
+	* In your browser accept the assignment:  <add link to the assignment>
+	* Then login into your github account and you should see a new repository with 
 	the assignment name. Click on the green button Code and then copy the link from the Clone with HTTPS option
-	d) Clone the lab repository on your virtual machine (a new folder will be created with the name of the assignment. All files from the repository will be copied there): 
+	* Clone the lab repository on your virtual machine (a new folder will be created with the name of the assignment. All files from the repository will be copied there): 
 	
 	```Type: git clone add_https_link_from_above ```
 	
-	e) Check that you have the new assignment folder in /vagrant. Type: `ls -al`
-	f) Change directory to the new assignment folder. Type: `cd assignment_folder_name`
-	g) Check the files in the assignment foder. Type: `ls`     
+	* Check that you have the new assignment folder in /vagrant. Type: `ls -al`
+	* Change directory to the new assignment folder. Type: `cd assignment_folder_name`
+	* Check the files in the assignment foder. Type: `ls`     
 
-  Congratulations! You are now ready to start your assignment.
+  **Congratulations! You are now ready to start your assignment.**
 
 A) Edit the helloWorld.cpp file. Open the file using an editor. 
 	
@@ -65,27 +65,22 @@ A) Edit the helloWorld.cpp file. Open the file using an editor.
 	Save helloWorld.cpp
 
 B) Compile your cpp file:
+	* Compile the file by itself. Use this when you have only one file to compile: Type: `g++  -o hello helloWorld.cpp`
+	* Use makefile. Makefile contains a list of compile commands. Check the makefile file in `/vanguard` or in your CSC16 local directory.
 	
-a) Compile the file by itself. Use this when you have only one file to compile: Type: `g++  -o hello helloWorld.cpp`
-b) Use makefile. Makefile contains a list of compile commands. Check the makefile file in /vanguard or in your CSC16 local directory.
-	```
+	
 	Content makefile 
 		hello: helloWorld.cpp 
 			g++ -o hello helloWorld.cpp
 		clean: 
 			$(RM) hello
-	```	
+		
 	
 This compiles the helloWorld.cpp with the first 'target' called hello. 
 
 Then the 'target' clean removes the executable file hello.
-	
-You will learn more about writing makefiles to compile your code. Here is a short introduction: https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html - You can check it later when we need more advanced compiling features. 
-
-	To compile using makefile type: make in your VM assignment folder. 
-
-	Then type: ls -l 
-	You should see a new file called hello. This is your executable file. 
+	* You will learn more about writing makefiles to compile your code. Here is a short introduction: https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html - You can check it later when we need more advanced compiling features. 
+	* To compile using makefile type: `make` in your VM assignment folder. Then type: `ls -l`. You should see a new file called `hello`. This is your executable file. 
 	
 C) Run your executable file hello: Type:  `./hello` 
 	
