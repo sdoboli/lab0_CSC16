@@ -1,4 +1,4 @@
-Lab 0 - Install and test VM and github classroom 
+## Lab 0 - Install and test VM and github classroom 
 
 
 Follow the steps below. The original steps are from here:  
@@ -17,7 +17,8 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
    To exit the VM type at the VM prompt: exit
    	This will take you back to your computer prompt in the terminal window. The VM is still up. You can ssh later in it. 
    To stop the machine type: vagrant halt  
-   	You will have to type vagrant up and vagrant ssh again.
+   	
+	You will have to type vagrant up and vagrant ssh again.
 
 8. Install the following packages:
 
@@ -25,16 +26,15 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 	
 	sudo apt install gdb
 
-9. Type cd /vagrant. This folder is mapped onto your local CSC16 directory. Type ls -al to see its content. It will be the same content as CSC16 on your machine. Always type cd /vagrant when you start up your VM.
+9. Type: `cd /vagrant`. This folder is mapped onto your local CSC16 directory. Type: `ls -al` to see its content. It will be the same content as CSC16 on your machine. Always type: `cd /vagrant` when you start up your VM.
 
 10. Create an account on github: https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account  
 	- Check this website for a short intro to git: https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/ 
 12. Inside VM type: 
-	
+	'''
 	git config --global user.name "your name from github profile"
-	
 	git config --global user.email "your email from github profile"   
-
+	'''
 12. Clone the github classroom repository locally in /vagrant folder:
 	
 	a) Check that you are inside /vagrant folder: 
