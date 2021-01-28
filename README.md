@@ -69,19 +69,17 @@ B) Compile your cpp file:
 * Compile the file by itself. Use this when you have only one file to compile: Type: `g++  -o hello helloWorld.cpp`
 * Use makefile. Makefile contains a list of compile commands. Check the makefile file in `/vanguard` or in your CSC16 local directory.
 	
+	```
+	#Content makefile 
+	hello: helloWorld.cpp 
+		g++ -o hello helloWorld.cpp
+	clean: 
+		$(RM) hello
+	```	
 	
-	Content makefile 
-		hello: helloWorld.cpp 
-			g++ -o hello helloWorld.cpp
-		clean: 
-			$(RM) hello
-		
-	
-This compiles the helloWorld.cpp with the first 'target' called hello. 
-
-Then the 'target' clean removes the executable file hello.
-
-* You will learn more about writing makefiles to compile your code. Here is a short introduction: https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html - You can check it later when we need more advanced compiling features. 
+* By typing: `make` or `make hello` you compile the `helloWorld.cpp` 
+* By typing: `make clean` you remove the executable file `hello`.
+* You will learn more about writing makefiles to compile your code. Here is a short introduction: https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html. You can check it later when we need more advanced compiling features. 
 * To compile using makefile type: `make` in your VM assignment folder. Then type: `ls -l`. You should see a new file called `hello`. This is your executable file. 
 	
 C) Run your executable file hello: Type:  `./hello` 
