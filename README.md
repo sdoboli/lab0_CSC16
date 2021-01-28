@@ -11,9 +11,9 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 5. Create a directory called CSC16 on your computer
 6. Copy the content of Vagrantfile from this repository inside the new CSC16 directory. Make sure the name of the file stays Vagrantfile. 
 7. Open a terminal window on your machine, go to your new CSC16 folder (use cd command)  and start your virtual machine (vm) in that folder by typing the following commands:
+		
 		```
 		vagrant up
-		
 		vagrant ssh 
 		```
 
