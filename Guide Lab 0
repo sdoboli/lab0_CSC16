@@ -1,7 +1,0 @@
-1. Instructions for the lab are in the README file.
-2. There are three text files you should read before starting the instructions in the README file.
-    a. CPPprogramStructure.txt  = describes the structure of a c++ program.
-    b. Notes1_about_gnu_compiler.txt   = details the compiling process of a cpp program into an 
-                                         executable file and how to run the executable file
-    c. IntroToLinuxCommands.txt  = describes the basic linux commands you need to know. 
-
