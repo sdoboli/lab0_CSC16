@@ -84,7 +84,7 @@ B) Compile your cpp file:
 	
 C) Run your executable file hello: Type:  `./hello` 
 	
-D) Update changes to your local repository 
+D) Update changes to your local git repository (on your computer)
 
 	See changes you made to helloWorld.cpp. Type: `git status`
 	
@@ -118,9 +118,7 @@ D) Update changes to your local repository
 	
 	Check with the command: git log the history of your commit messages. 
 	
-E) Update changes to your online repository - master branch 
-	
-	After you are done with your assignment then you need to commit your changes to the github online repository. Right now, all changes are local to your VM. 
+E) Update changes to your git online repository - master branch. After you are done with your assignment then you need to commit your changes to the github online repository. Right now, all changes are local to your VM/computer. 
 	
 	Type: git push
 
