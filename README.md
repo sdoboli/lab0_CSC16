@@ -122,7 +122,7 @@ E) Update changes to your git online repository - master branch. After you are d
 	
 	Type: git push
 
-F)   If the online master repository was updated, type: git pull to update your local repository
+F)   If the online master repository was updated, type: `git pull` to update your local repository
 
 
 
