@@ -32,7 +32,7 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 8. Install the following packages:
 
 	```
-	sudo apt install build-esential
+	sudo apt install build-essential
 	sudo apt install gdb
 	```
 
