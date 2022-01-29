@@ -1,12 +1,6 @@
 ## Lab 0 - Install and test VM and github classroom 
 
 
-0. Read the following files:
-    1. CPPprogramStructure.txt  = describes the structure of a c++ program.
-    1. Notes1_about_gnu_compiler.txt   = details the compiling process of a cpp program into an 
-                                         executable file and how to run the executable file
-    1. IntroToLinuxCommands.txt  = describes the basic linux commands you need to know. 
-
 
 Follow the steps below. The original steps are from here:  
 http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM 
@@ -61,6 +55,12 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
 
   **Congratulations! You are now ready to start your assignment.**
 
+13. Read the following files:
+    1. CPPprogramStructure.txt  = describes the structure of a c++ program.
+    1. Notes1_about_gnu_compiler.txt   = details the compiling process of a cpp program into an 
+                                         executable file and how to run the executable file
+    1. IntroToLinuxCommands.txt  = describes the basic linux commands you need to know. 
+	
 A) Edit the helloWorld.cpp file. Open the file using an editor. 
 	
 	Suggested editor: 
