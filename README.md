@@ -1,13 +1,11 @@
 ## Lab 0 - Install and test VM and github classroom 
 
-
-
 Follow the steps below. The original steps are from here:  
 http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM 
 
-1. Download Virtual Box: https://www.virtualbox.org
-2. Install Virtual Box: https://www.virtualbox.org/manual/ch02.html
-3. Download Vagrant: https://www.vagrantup.com/downloads.html 
+1. Download Virtual Box: https://www.virtualbox.org (Virtual Box is a virtualization software that allows you to emulate different operating systems on your machine through the use of virtual machines (VM). A VM is a software that emulates a computer. 
+2. Install Virtual Box: https://www.virtualbox.org/manual/ch02.html 
+3. Download Vagrant: https://www.vagrantup.com/downloads.html (Vagrant is a tool that manages the installation and run of virtual machines through a program flow)
 4. Install Vagrant:  https://www.vagrantup.com/docs/installation
 5. Create a directory called CSC16 on your computer
 6. Copy the content of `Vagrantfile` from this repository inside your new CSC16 directory. Make sure the name of the file stays `Vagrantfile`, not `Vagrantfile.txt`. 
