@@ -21,7 +21,7 @@ http://cs.brown.edu/courses/csci1310/2020/assign/labs/lab0.html#Using-the-VM
    * To stop the machine type: `vagrant halt`  
    * To restart: You will have to type: `vagrant up` and `vagrant ssh` again.
 
-8. Install the following packages:
+8. Install the following packages at the promt of the virtual machine:
 
 	```
 	sudo apt install build-essential
