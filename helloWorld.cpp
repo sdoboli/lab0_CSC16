@@ -3,5 +3,5 @@ using namespace std; // use libraries from namespace std
 
 int main()
 {
-	cout << "Hello CSC16 Fall 2020 class ! " << endl; 
+	cout << "Hello CSC16 Fall 2020 class again ! " << endl; 
 }
